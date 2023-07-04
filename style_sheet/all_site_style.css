@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 100;
+    src: url("../Resources/Font/bahij_thesansarabic-extralight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 200;
+    src: url("../Resources/Font/bahij_thesansarabic-semilight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 300;
+    src: url("../Resources/Font/bahij_thesansarabic-light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 500;
+    src: url("../Resources/Font/bahij_thesansarabic-semibold.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 600;
+    src: url("../Resources/Font/bahij_thesansarabic-bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Bahij;
+    font-weight: 700;
+    src: url("../Resources/Font/bahij_thesansarabic-extrabold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Bahij;
+    src: url("../Resources/Font/bahij_thesansarabic-extralight.woff2") format("woff2");
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+
+button input {
+        font-family: Bahij;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Bahij;
+}
+
+h1 , h2 ,h3 ,h4 ,h5 ,h6{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+
